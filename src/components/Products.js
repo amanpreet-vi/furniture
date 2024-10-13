@@ -20,7 +20,6 @@ const Products = () => {
           <div key={item.id} className="product-item">
             <img src={item.img} alt={item.name} />
             <h3>{item.name}</h3>
-            <p>{item.price}</p>
           </div>
         ))}
       </div>
