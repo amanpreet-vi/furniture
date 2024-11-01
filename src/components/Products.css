@@ -15,7 +15,14 @@
 
 .product-item img {
   width: 100%;
-  height: auto;
+  height: 40vh;
+  max-width: 200px;
+}
+.productPics {
+  border-radius: 0.4em;
+  margin: 0.1vw;
+  width: 300px;
+  height: 300px;
   max-width: 200px;
 }
 

@@ -4,6 +4,7 @@ import Home from "./components/Home";
 import Products from "./components/Products";
 import Contact from "./components/Contact";
 import "./App.css";
+import Footer from "./components/Footer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Home />
       <Products />
       <Contact />
+      <Footer />
     </div>
   );
 }
