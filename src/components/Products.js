@@ -7,6 +7,7 @@ import chairImg from "../assets/chair.jpg";
 import image1 from "../assets/image1.jpg";
 
 import Pictures from "./Pictures";
+import ExpandableImageGallery from "./ExpandableImageGallery";
 
 const Products = () => {
   const furniture = [
@@ -26,7 +27,8 @@ const Products = () => {
           </div>
         ))}
       </div>
-      <Pictures />
+      {false ? <Pictures /> : <></>}
+      <ExpandableImageGallery />
     </section>
   );
 };
