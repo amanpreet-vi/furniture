@@ -60,7 +60,7 @@ export default function ExpandableImageGallery() {
           height: 200px;
           object-fit: cover;
           border-radius: 10px;
-          cursor: pointer;
+          cursor: none;
           transition: transform 0.3s ease-in-out;
         }
         .gallery-image:hover {
