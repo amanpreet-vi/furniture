@@ -19,7 +19,7 @@ export default function ExpandableImageGallery() {
           <img
             key={index}
             src={src}
-            alt={`Gallery image ${index}`}
+            alt={`Gallery file ${index}`}
             className="gallery-image"
             onClick={() => setSelectedImage(src)}
           />
